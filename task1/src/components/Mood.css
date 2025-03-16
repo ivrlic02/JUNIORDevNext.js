@@ -1,0 +1,44 @@
+@keyframes mood-animation {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+#emoji-container {
+    border-radius: 30px;
+    height: 500px;
+}
+
+#emoji-container.animate {
+    animation: mood-animation 1s ease-in-out;
+}
+
+.emoji {
+    font-size: 300px;
+    margin: 0;
+}
+
+#select-container {
+    margin: 30px 0;
+    height: 80px;
+}
+
+button {
+    font-size: 20px;
+    padding: 5px 0px;
+    width: 120px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(235, 235, 235);
+}
+
+.mood-button {
+    margin: 0 20px;
+}
+
+#counter-container {
+    font-size: 20px;
+    display: flex;
+    column-gap: 20px;
+    justify-content: start;
+}
